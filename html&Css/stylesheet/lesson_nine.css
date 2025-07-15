@@ -1,0 +1,87 @@
+.red-square {
+    width: 90px;
+    height: 90px;
+    background-color: red;
+}
+
+.green-square {
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+
+.c9 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 15px;
+    width: 250px;
+}
+
+.d9 {
+    background-color: #1c1c1c;
+    padding: 5px 20px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.caption {
+    color: #757575;
+    
+}
+
+.e9 {
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.e9 .user-profile {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.e9 .post-input { 
+    border: none;
+    font-size: 17px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+
+.e9 .tweet-btn {
+    vertical-align: middle;
+    color: white;
+    background-color: #477ee4;
+    border: none;
+    padding: 10px 15px; /* top bottom left right*/
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 30px;
+}

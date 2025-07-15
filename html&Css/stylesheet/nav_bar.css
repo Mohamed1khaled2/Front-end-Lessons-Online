@@ -1,0 +1,52 @@
+p {
+    margin: 0px;
+}
+
+.flex-continer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #674094;
+    padding: 10px;
+
+}
+
+
+.home {
+    width: 90px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.search {
+    background-color: red;
+    width: 100%;
+
+}
+
+ input {
+    flex: 3;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 10px;
+    padding-left: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+
+}
+
+.download-btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+

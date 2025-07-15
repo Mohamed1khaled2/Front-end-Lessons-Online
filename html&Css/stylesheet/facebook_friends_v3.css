@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 3000px;
+}
+
+.friend {
+
+    position: fixed;
+    left: 25px;
+    right: 25px;
+
+}
+
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex-row .left-items {
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.flex-row .left-items img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.flex-row .left-items p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.flex-row .flex-row-bottons .button-style {
+    font-size: 17px;
+    font-weight: bold;
+    padding:10px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+
+.flex-row .flex-row-bottons .add {
+    background-color: blue;
+    color: white;
+    margin-right: 10px;
+}

@@ -1,0 +1,89 @@
+p {
+    margin: 0px;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: flex-start;
+    max-width: 477px;
+    justify-content: space-between;
+    
+}
+
+
+.flex-row .user-profile {
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+
+
+.flex-row .content-flex { 
+    margin-left: 10px;
+}
+
+
+.user-name {
+    font-weight: bold;
+}
+
+
+.name {
+    color: #5e5e5e;
+}
+
+
+.caption {
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.link-view-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 110px;
+    border: 1px solid #d4d4d4;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.link-view-row .photo-view-link {
+    width: 125px;
+    height: 100%;
+    background-color: #d4d4d4;
+    border-radius: 15px 0px 0px 15px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    -moz-border-radius: 15px 0px 0px 15px;
+    -ms-border-radius: 15px 0px 0px 15px;
+    -o-border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.content-link {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.content-link .site-title {
+    color: gray;
+}

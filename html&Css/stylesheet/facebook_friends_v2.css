@@ -1,0 +1,74 @@
+.section-suggest-friends {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+
+.friend-suggestion { 
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.user-profile .user-photo {
+    width: 100%;
+    background-color: red;
+
+    
+}
+
+.friend-suggestion .name {
+    color: black;
+    padding: 5px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 19px;
+}
+        
+
+.mutual-friends p {
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+
+}
+
+.mutual-friends-img{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.mutual-friends-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    height: 100%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+
+
+.friend-suggestion .add {
+    padding: 10px 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    background-color: #4a56ba;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 14px;
+
+}

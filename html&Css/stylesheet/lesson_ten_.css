@@ -1,0 +1,77 @@
+.a10 {
+    padding: 10px;
+    display: inline-block;
+    font-family: Roboto;
+}
+
+
+p {
+    margin: 0;
+}
+
+
+.photo {
+    vertical-align: top;
+    display: inline-block;
+    background-color: red;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+
+.profile-photo {
+    height: 90px;
+    width: 100%;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.info {
+    display: inline-block;
+    width: 90px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.info .name {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 19px;
+
+}
+
+.info .caption {
+    color: #929292;
+    margin-top: 1px;
+}
+
+.follow-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 90px;
+}
+
+.follow-btn button {
+    padding: 10px;
+    font-size: 19px;
+    color: white;
+    background-color: #608bf0;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}

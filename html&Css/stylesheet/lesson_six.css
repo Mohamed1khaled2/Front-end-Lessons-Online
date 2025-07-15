@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+p {
+    font-weight: 600;
+}
+
+span {
+    text-decoration: underline;
+}

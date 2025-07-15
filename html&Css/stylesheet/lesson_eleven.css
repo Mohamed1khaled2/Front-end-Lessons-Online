@@ -1,0 +1,22 @@
+.a11 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.b11 {
+
+    display: grid;
+    grid-template-columns: 50px 75px 50px;
+}
+
+.c11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.c11 div {
+    background-color: brown;
+}
