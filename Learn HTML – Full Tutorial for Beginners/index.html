@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Little Taco Shop</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-  
-        <header>
-            <h1>Welcome to The Little Taco Shop</h1>
 
+    <header>
+        <h1>Welcome to The Little Taco Shop</h1>
+        <nav>
             <ul>
                 <a href="#about">
                     <li>About <abbr title="The Little Taco Shop">LTS</abbr></li>
@@ -27,16 +28,19 @@
                     <li>Contact Us</li>
                 </a>
             </ul>
-            <figure>
-                <img src="./img/tacos_and_drink_400x267.png" alt="tacos with dring">
-                <figcaption>Tacos and a Drink</figcaption>
-            </figure>
-        </header>
-        <hr>
-        <main>
-   <section id="about">
+
+        </nav>
+
+        <figure>
+            <img src="./img/tacos_and_drink_400x267.png" alt="tacos with dring">
+            <figcaption>Tacos and a Drink</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <article id="about">
             <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
-            <p><abbr title="The Little Taco Shop">LTS</abbr> was foundes in 2022. Out shop was built from a <strong>love
+            <p><abbr title="The Little Taco Shop">LTS</abbr> was foundes in <time datetime="2022">2022</time>. Out shop was built from a <strong>love
                     of tacos</strong>🌮🌮🌮. we hope our shop adds a unique and interesting place to our little town.
             </p>
             <h3>
@@ -46,68 +50,73 @@
 
                 <details>
                     <summary>When did tacos first appear in the United States</summary>
-
-                    <p>write some things here</p>
+                    
+                    <p>Jeffrey M. Pilcher, taco historian and professor of history all the University of Minnesota, says
+                        the earliest mention of tacos in the United States are in a newspaper from <time
+                            datetime="1905">1905</time>. 
+                            (Source:<cite><a href="">From Source</a></cite>)
+                    </p>
                 </details>
             </aside>
-        </section>
+        </article>
 
         <hr>
-        <section id="menu">
+        <article id="menu">
             <h2>Our Menu</h2>
             <table>
+                <caption>Our Tacos</caption>
                 <thead>
                     <tr>
-                        <th>Tacos</th>
-                        <th><abbr title="">Qty</abbr></th>
-                        <th>Price</th>
+                        <th scope="col">Tacos</th>
+                        <th scope="col" ><abbr title="">Qty</abbr></th>
+                        <th scope="col">Price</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th rowspan="3">Crunchy</th>
+                        <th rowspan="3" scope="row">Crunchy</th>
                         <td>1</td>
-                        <td>1.5</td>
+                        <td>$1.50</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>1.5</td>
+                        <td>2</td>
+                        <td>$2.50</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>1.5</td>
+                        <td>3</td>
+                        <td>$3.25</td>
                     </tr>
                     <tr>
-                        <th rowspan="4">Soft</th>
+                        <th rowspan="4" scope="row">Soft</th>
 
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>1.5</td>
+                        <td>$2.00</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>1.5</td>
+                        <td>2</td>
+                        <td>$3.50</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>1.5</td>
+                        <td>3</td>
+                        <td>$4.50</td>
                     </tr>
                 </tbody>
                 <tfoot>
-                    <td colspan="3">Chips&nbsp;&&nbsp;Salsa $2</td>
+                    <td colspan="3">Chips&nbsp;&amp;&nbsp;Salsa $2</td>
                 </tfoot>
             </table>
             <br>
             <a href="#">Back to Top</a>
-        </section>
+        </article>
 
-        </main>
-     
-        <hr>
-        <footer>
-            &copy; The Little Taco Shop
-        </footer>
+    </main>
+
+    <hr>
+    <footer>
+        &copy; The Little Taco Shop
+    </footer>
 
 
 </body>
