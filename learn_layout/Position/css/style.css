@@ -42,3 +42,24 @@ body {
     top: 0;
     right: 0;
 }
+
+.relative {
+    background-color: #f00;
+    position: relative;
+    top: 10px;
+    left: 100px; 
+}
+
+
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 100px;
+    z-index: 5;
+}
+
+.sticky {
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
