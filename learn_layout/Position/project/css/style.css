@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+section {
+    height: 100vh;
+}
+
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+
+header, footer {
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    font-size: 5rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    font-size: 3rem;
+    left: 0;
+    right: 0;
+}
+
+a:visited{
+    color: #fff;
+
+}
+
+
+.social {
+    background-color: royalblue;
+    color: white;
+    font-size: inherit;
+    position: fixed;
+    top:30%;
+    left: 0;
+    z-index: 3;
+}
